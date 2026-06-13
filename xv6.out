@@ -1,0 +1,23 @@
+
+xv6 kernel is booting
+
+hart 2 starting
+hart 1 starting
+init: starting sh
+$ nettest grade
+txone: sending one packet
+arp_rx: received an ARP packet
+ip_rx: received an IP packet
+ping0: starting
+ping0: OK
+ping1: starting
+ping1: OK
+ping2: starting
+ping2: OK
+ping3: starting
+ping3: OK
+dns: starting
+DNS arecord for pdos.csail.mit.edu. is 128.52.129.126
+dns: OK
+free: OK
+$ qemu-system-riscv64: terminating on signal 15 from pid 19680 (<unknown process>)

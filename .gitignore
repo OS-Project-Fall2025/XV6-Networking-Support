@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# xv6 build outputs
+*.o
+*.d
+*.asm
+*.sym
+*.bin
+*.out
+
+fs.img
+fs.img.bk
+xv6.img
+kernel/kernel
+mkfs/mkfs
+user/_*
+
+# QEMU / GDB / debug outputs
+.gdbinit
+packets.pcap
+
+# Temporary files
+*.tmp
+*.swp
+*~

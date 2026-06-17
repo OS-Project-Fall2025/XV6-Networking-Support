@@ -1,0 +1,8 @@
+/Library/Developer/CommandLineTools/usr/bin/make clean
+rm -rf *.tex *.dvi *.idx *.aux *.log *.ind *.ilg *.dSYM *.zip *.pcap \
+	*/*.o */*.d */*.asm */*.sym \
+	kernel/kernel fs.img \
+	mkfs/mkfs .gdbinit \
+        user/usys.S \
+	user/_cat user/_echo user/_forktest user/_grep user/_init user/_kill user/_ln user/_ls user/_mkdir user/_rm user/_sh user/_stressfs user/_usertests user/_grind user/_wc user/_zombie user/_logstress user/_forphan user/_dorphan  user/_nettest
+./grade-lab-net -v

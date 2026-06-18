@@ -288,4 +288,4 @@ University of Technology. It is based on the MIT xv6 RISC-V codebase and its
 networking lab infrastructure.
 
 The upstream xv6 source and acknowledgments remain available in `README`.
-See `LICENSE` for the repository's license terms.
+See `LICENSE` for the xv6's license terms.
